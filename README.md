@@ -40,6 +40,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+For this CodePath iOS app assignment, it was difficult to implement the functionality of adjusting tip percentages in the settings screen. A challenge I encountered was that the segment control's text didn't reflect the tip percentages adjustment in the settings page, but rather a view controller cycle later. I realized that my changeDefaultValues function (initially connected to the three tip text fields) adjusted the default tip percentages after it registers that I entered values in the text field, rather than during. I fixed this by implementing a save button so that the changeDefaultValues function is associated with the action of changing the defaults via the button. This way, changing the defaults would be immediately executed after registering all the values I entered in the text fields.
+
 ## License
 
     Copyright [2021] [Jennifer Du]
