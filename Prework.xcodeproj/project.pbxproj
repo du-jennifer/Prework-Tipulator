@@ -13,6 +13,7 @@
 		B955BBEA260EE51E00ADFAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B955BBE8260EE51E00ADFAAC /* Main.storyboard */; };
 		B955BBEC260EE52500ADFAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B955BBEB260EE52500ADFAAC /* Assets.xcassets */; };
 		B955BBEF260EE52500ADFAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B955BBED260EE52500ADFAAC /* LaunchScreen.storyboard */; };
+		B955BBF8260EF28300ADFAAC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955BBF7260EF28300ADFAAC /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B955BBEB260EE52500ADFAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B955BBEE260EE52500ADFAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B955BBF0260EE52500ADFAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B955BBF7260EF28300ADFAAC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B955BBE4260EE51E00ADFAAC /* SceneDelegate.swift */,
 				B955BBE6260EE51E00ADFAAC /* ViewController.swift */,
 				B955BBE8260EE51E00ADFAAC /* Main.storyboard */,
+				B955BBF7260EF28300ADFAAC /* SettingsViewController.swift */,
 				B955BBEB260EE52500ADFAAC /* Assets.xcassets */,
 				B955BBED260EE52500ADFAAC /* LaunchScreen.storyboard */,
 				B955BBF0260EE52500ADFAAC /* Info.plist */,
@@ -140,6 +143,7 @@
 				B955BBE7260EE51E00ADFAAC /* ViewController.swift in Sources */,
 				B955BBE3260EE51E00ADFAAC /* AppDelegate.swift in Sources */,
 				B955BBE5260EE51E00ADFAAC /* SceneDelegate.swift in Sources */,
+				B955BBF8260EF28300ADFAAC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
